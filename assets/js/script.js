@@ -200,3 +200,51 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+/* ==========================================================
+   DA CALCULATOR (STEP 8.3)
+==========================================================*/
+
+function calculateDA() {
+
+    const basic = parseFloat(document.getElementById("daBasicPay")?.value) || 0;
+    const rate = parseFloat(document.getElementById("daRate")?.value) || 0;
+
+    const daAmount = basic * rate;
+
+    const monthlyDA = daAmount;
+    const yearlyDA = daAmount * 12;
+
+    updateDAUI({
+        basic,
+        daAmount,
+        monthlyDA,
+        yearlyDA
+    });
+}
+
+
+/* UPDATE DA UI */
+function updateDAUI(data) {
+
+    const set = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = Math.round(val).toLocaleString("en-IN");
+    };
+
+    set("daBasicOutput", data.basic);
+    set("daAmountOutput", data.daAmount);
+    set("monthlyDA", data.monthlyDA);
+    set("yearlyDA", data.yearlyDA);
+}
+
+
+/* LIVE BINDING */
+document.addEventListener("DOMContentLoaded", () => {
+
+    const basic = document.getElementById("daBasicPay");
+    const rate = document.getElementById("daRate");
+
+    if (basic) basic.addEventListener("input", calculateDA);
+    if (rate) rate.addEventListener("change", calculateDA);
+
+});
