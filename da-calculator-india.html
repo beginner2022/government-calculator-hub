@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DA Calculator India 2026 | Dearness Allowance Calculator</title>
+
+    <meta name="description" content="Free DA Calculator India 2026. Calculate Dearness Allowance for central government employees based on Basic Pay instantly.">
+
+    <meta name="keywords" content="DA calculator India, Dearness Allowance calculator, government DA calculator">
+
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <h1>GovCalc India</h1>
+    </div>
+</header>
+
+<!-- DA CALCULATOR -->
+<section class="content-section">
+
+    <div class="section-header">
+        <h2 class="section-title">DA Calculator (Dearness Allowance)</h2>
+        <p class="section-description">
+            Calculate your Dearness Allowance based on current government percentage.
+        </p>
+    </div>
+
+    <!-- INPUT -->
+    <div class="tool-card">
+
+        <label>Basic Pay</label>
+        <input type="number" id="daBasicPay" placeholder="Enter Basic Pay (₹)">
+
+        <label>DA Rate</label>
+        <select id="daRate">
+            <option value="0.46">46% (Current Standard)</option>
+            <option value="0.50">50%</option>
+            <option value="0.42">42%</option>
+            <option value="0.38">38%</option>
+        </select>
+
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="tool-card">
+
+        <h3>DA Breakdown</h3>
+
+        <p>Basic Pay: ₹<span id="daBasicOutput">0</span></p>
+        <p>DA Amount: ₹<span id="daAmountOutput">0</span></p>
+
+        <hr>
+
+        <p><b>Monthly DA: ₹<span id="monthlyDA">0</span></b></p>
+        <p><b>Yearly DA: ₹<span id="yearlyDA">0</span></b></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 GovCalc India</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
