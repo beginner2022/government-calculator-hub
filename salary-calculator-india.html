@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Salary Calculator India 2026 | DA, HRA, PF Calculator</title>
+
+    <meta name="description" content="Free Salary Calculator India 2026. Calculate Basic Pay, DA, HRA, PF and Net Salary instantly for government employees and private jobs.">
+
+    <meta name="keywords" content="salary calculator india, government salary calculator, DA HRA calculator, net salary calculator">
+
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <h1>GovCalc India</h1>
+    </div>
+</header>
+
+<!-- TOOL SECTION -->
+<section class="content-section">
+
+    <div class="section-header">
+        <h2 class="section-title">Salary Calculator India</h2>
+        <p class="section-description">
+            Calculate your Government or Private salary with DA, HRA and PF instantly.
+        </p>
+    </div>
+
+    <!-- INPUT BOX -->
+    <div class="tool-card">
+
+        <label>Basic Pay</label>
+        <input type="number" id="basicPay" placeholder="Enter Basic Pay (₹)">
+
+        <label>City Type</label>
+        <select id="cityType">
+            <option value="metro">Metro City (24% HRA)</option>
+            <option value="tier2">Tier 2 City (16% HRA)</option>
+            <option value="rural">Rural Area (8% HRA)</option>
+        </select>
+
+    </div>
+
+    <!-- RESULT BOX -->
+    <div class="tool-card">
+
+        <h3>Salary Breakdown</h3>
+
+        <p>Basic Pay: ₹<span id="basicOutput">0</span></p>
+        <p>DA (46%): ₹<span id="daOutput">0</span></p>
+        <p>HRA: ₹<span id="hraOutput">0</span></p>
+        <p>PF (12%): ₹<span id="pfOutput">0</span></p>
+
+        <hr>
+
+        <p><b>Gross Salary: ₹<span id="grossOutput">0</span></b></p>
+        <p><b>Net Salary: ₹<span id="netOutput">0</span></b></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 GovCalc India. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
