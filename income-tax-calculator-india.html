@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Income Tax Calculator India 2026 | Old vs New Regime</title>
+
+    <meta name="description" content="Free Income Tax Calculator India 2026. Compare Old vs New Tax Regime and calculate your exact tax instantly.">
+
+    <meta name="keywords" content="income tax calculator India, tax calculator 2026, old vs new regime calculator">
+
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <h1>GovCalc India</h1>
+    </div>
+</header>
+
+<!-- TAX CALCULATOR -->
+<section class="content-section">
+
+    <div class="section-header">
+        <h2 class="section-title">Income Tax Calculator</h2>
+        <p class="section-description">
+            Compare Old vs New Tax Regime and calculate your estimated tax instantly.
+        </p>
+    </div>
+
+    <!-- INPUT -->
+    <div class="tool-card">
+
+        <label>Annual Income (₹)</label>
+        <input type="number" id="annualIncome" placeholder="Enter Annual Salary">
+
+        <label>Tax Regime</label>
+        <select id="taxRegime">
+            <option value="new">New Regime</option>
+            <option value="old">Old Regime</option>
+        </select>
+
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="tool-card">
+
+        <h3>Tax Breakdown</h3>
+
+        <p>Annual Income: ₹<span id="incomeOut">0</span></p>
+        <p>Tax Regime: <span id="regimeOut">-</span></p>
+
+        <hr>
+
+        <p><b>Estimated Tax: ₹<span id="taxOut">0</span></b></p>
+        <p><b>Net Income: ₹<span id="netIncomeOut">0</span></b></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 GovCalc India</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
