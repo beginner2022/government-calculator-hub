@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pension Calculator India 2026 | Government Pension Estimate</title>
+
+    <meta name="description" content="Free Pension Calculator India 2026. Estimate your monthly pension for government employees based on last basic pay and service years.">
+
+    <meta name="keywords" content="pension calculator India, government pension calculator, retirement pension India">
+
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <h1>GovCalc India</h1>
+    </div>
+</header>
+
+<!-- PENSION CALCULATOR -->
+<section class="content-section">
+
+    <div class="section-header">
+        <h2 class="section-title">Pension Calculator</h2>
+        <p class="section-description">
+            Estimate your monthly retirement pension based on last drawn salary and years of service.
+        </p>
+    </div>
+
+    <!-- INPUT -->
+    <div class="tool-card">
+
+        <label>Last Basic Pay (₹)</label>
+        <input type="number" id="pensionBasic" placeholder="Enter Last Basic Pay">
+
+        <label>Years of Service</label>
+        <input type="number" id="serviceYears" placeholder="Enter Service Years">
+
+        <label>Commutation (%)</label>
+        <select id="commutation">
+            <option value="0.0">No Commutation</option>
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+        </select>
+
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="tool-card">
+
+        <h3>Pension Breakdown</h3>
+
+        <p>Last Basic Pay: ₹<span id="penBasicOut">0</span></p>
+        <p>Service Years: <span id="serviceOut">0</span> years</p>
+
+        <hr>
+
+        <p><b>Monthly Pension: ₹<span id="monthlyPension">0</span></b></p>
+        <p><b>Commuted Pension Deduction: ₹<span id="commDeduction">0</span></b></p>
+        <p><b>Final Pension: ₹<span id="finalPension">0</span></b></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 GovCalc India</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
