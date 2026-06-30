@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>GovCalc Hub | Government Employee Calculator Hub India</title>
+<title>GovCalc Hub | Government Employee Calculator Hub</title>
 
-<meta name="description" content="Government salary, DA, HRA, pension, income tax and 8th Pay Commission calculators for Central & State Government employees in India.">
+<meta name="description" content="Free Government Salary, DA, HRA, Pension, Income Tax and 8th Pay Commission calculators for Central & State Government Employees.">
 
 <link rel="stylesheet" href="layout.css">
 <link rel="stylesheet" href="homepage.css">
@@ -21,15 +20,15 @@
 
 <body>
 
-<header class="header">
+<header class="home-header">
 
 <div class="container">
 
-<div class="logo">
+<a href="index.html" class="logo">
 🏛️ GovCalc Hub
-</div>
+</a>
 
-<nav>
+<nav class="home-nav">
 
 <a href="#tools">Calculators</a>
 
@@ -44,20 +43,21 @@
 </header>
 
 
-<section class="hero">
+<section class="home-hero">
 
-<div class="container">
+<div class="container hero-grid">
 
-<div class="hero-left">
+<div>
 
-<span class="badge">
-🇮🇳 Trusted Government Calculator Portal
-</span>
+<div class="hero-tag">
+
+🇮🇳 India's Government Calculator Portal
+
+</div>
 
 <h1>
 
-Government Employee
-<br>
+Government Employee<br>
 
 Calculator Hub
 
@@ -65,54 +65,27 @@ Calculator Hub
 
 <p>
 
-Free online calculators for Salary, DA, HRA, Pension,
-Income Tax and the latest 8th Pay Commission updates.
+Free online calculators for salary, pension, DA, HRA, Income Tax and the latest 8th Pay Commission estimates.
 
 </p>
 
-<div class="hero-buttons">
+<a href="#tools" class="hero-btn">
 
-<a href="#tools" class="btn-primary">
-
-Explore Calculators
-
-</a>
-
-<a href="#" class="btn-secondary">
-
-Latest Updates
+Explore Calculators →
 
 </a>
 
 </div>
 
-<div class="search-area">
+<div class="hero-box">
 
-<input
-type="text"
-placeholder="Search calculator...">
-
-<button>
-
-🔍
-
-</button>
-
-</div>
-
-</div>
-
-<div class="hero-right">
-
-<div class="hero-card">
-
-<h3>Popular Tool</h3>
+<h3>Featured Tool</h3>
 
 <h2>8th Pay Commission Calculator</h2>
 
 <p>
 
-Estimate your revised government salary instantly.
+Estimate your revised salary instantly.
 
 </p>
 
@@ -126,16 +99,14 @@ Open Calculator →
 
 </div>
 
-</div>
-
 </section>
 
 
-<section class="stats">
+<section class="home-stats">
 
-<div class="container stats-grid">
+<div class="container stat-grid">
 
-<div class="stat-box">
+<div class="stat-card">
 
 <h2>10+</h2>
 
@@ -143,23 +114,23 @@ Open Calculator →
 
 </div>
 
-<div class="stat-box">
+<div class="stat-card">
 
 <h2>100%</h2>
 
-<p>Free to Use</p>
+<p>Free Forever</p>
 
 </div>
 
-<div class="stat-box">
+<div class="stat-card">
 
 <h2>24×7</h2>
 
-<p>Available Anytime</p>
+<p>Available</p>
 
 </div>
 
-<div class="stat-box">
+<div class="stat-card">
 
 <h2>🇮🇳</h2>
 
@@ -172,27 +143,21 @@ Open Calculator →
 </section>
 
 
-<section class="tools" id="tools">
+<section class="home-tools" id="tools">
 
 <div class="container">
 
 <h2>
 
-Popular Government Calculators
+Popular Calculators
 
 </h2>
 
-<p class="section-text">
+<div class="calculator-grid">
 
-Choose a calculator below.
+<a href="calculators/salary.html" class="calc-card">
 
-</p>
-
-<div class="tool-grid">
-
-<a href="calculators/salary.html" class="tool-card">
-
-<div class="icon">💰</div>
+💰
 
 <h3>Salary Calculator</h3>
 
@@ -200,53 +165,53 @@ Choose a calculator below.
 
 </a>
 
-<a href="calculators/da.html" class="tool-card">
+<a href="calculators/da.html" class="calc-card">
 
-<div class="icon">📈</div>
+📈
 
 <h3>DA Calculator</h3>
 
-<p>Latest Dearness Allowance calculation.</p>
+<p>Dearness Allowance Calculator</p>
 
 </a>
 
-<a href="calculators/hra.html" class="tool-card">
+<a href="calculators/hra.html" class="calc-card">
 
-<div class="icon">🏠</div>
+🏠
 
 <h3>HRA Calculator</h3>
 
-<p>House Rent Allowance estimate.</p>
+<p>House Rent Allowance Calculator</p>
 
 </a>
 
-<a href="calculators/pension.html" class="tool-card">
+<a href="calculators/pension.html" class="calc-card">
 
-<div class="icon">👴</div>
+👴
 
 <h3>Pension Calculator</h3>
 
-<p>Retirement benefit calculation.</p>
+<p>Estimate pension benefits.</p>
 
 </a>
 
-<a href="calculators/tax.html" class="tool-card">
+<a href="calculators/tax.html" class="calc-card">
 
-<div class="icon">📑</div>
+📑
 
 <h3>Income Tax Calculator</h3>
 
-<p>Estimate your income tax.</p>
+<p>Calculate income tax instantly.</p>
 
 </a>
 
-<a href="calculators/8th-pay.html" class="tool-card featured">
+<a href="calculators/8th-pay.html" class="calc-card featured">
 
-<div class="icon">⭐</div>
+⭐
 
 <h3>8th Pay Commission</h3>
 
-<p>Most searched government calculator.</p>
+<p>Most popular calculator.</p>
 
 </a>
 
@@ -257,13 +222,13 @@ Choose a calculator below.
 </section>
 
 
-<section class="about" id="about">
+<section class="home-about" id="about">
 
 <div class="container">
 
 <h2>
 
-Why GovCalc Hub?
+Why Choose GovCalc Hub?
 
 </h2>
 
@@ -271,11 +236,13 @@ Why GovCalc Hub?
 
 <div>
 
-<h3>⚡ Fast</h3>
+⚡
+
+<h3>Fast</h3>
 
 <p>
 
-Instant calculations without registration.
+Instant calculations.
 
 </p>
 
@@ -283,11 +250,13 @@ Instant calculations without registration.
 
 <div>
 
-<h3>✔ Accurate</h3>
+✔
+
+<h3>Accurate</h3>
 
 <p>
 
-Updated formulas for government employees.
+Reliable government formulas.
 
 </p>
 
@@ -295,11 +264,13 @@ Updated formulas for government employees.
 
 <div>
 
-<h3>📱 Mobile Friendly</h3>
+📱
+
+<h3>Responsive</h3>
 
 <p>
 
-Works perfectly on desktop and smartphones.
+Works on all devices.
 
 </p>
 
@@ -312,15 +283,11 @@ Works perfectly on desktop and smartphones.
 </section>
 
 
-<footer class="footer">
+<footer class="home-footer">
 
 <div class="container">
 
-<p>
-
-© 2026 GovCalc Hub • Made for Government Employees 🇮🇳
-
-</p>
+© 2026 GovCalc Hub | Built for Government Employees 🇮🇳
 
 </div>
 
